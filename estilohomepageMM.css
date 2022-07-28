@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:wght@200&display=swap');
+
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	box-sizing: border-box;
+
+}
+
+.logo{
+    position: absolute;
+    width: 378px;
+    height: 168px;
+    left: 5px;
+    top: -6px;
+}
+
+
+
+#email{
+    position: absolute;
+    width: 210px;
+    height: 46px;
+    left: 478px;
+    top: 47px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: #B8F0ED 2px 2px 2px 2px;
+    
+
+}
+#senha{
+    position: absolute;
+    width: 210px;
+    height: 46px;
+    left: 699px;
+    top: 47px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: #B8F0ED 2px 2px 2px 2px;
+
+}
+input::placeholder{
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+
+
+
+#btn-entrar{
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+    width: 122px;
+    height: 43px;
+    left: 956px;
+    top: 47px;
+    background: linear-gradient(180deg, rgba(221, 0, 255, 0.74) 0%, rgba(0, 255, 255, 0.712) 100%);
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 34px;
+}
+#btn-entrar:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #eabcf1 0px 0px 0px 0px;
+}
+
+#permanecer{
+    position: absolute;
+    left: 709px;
+    top: 100px;
+    background: #D9D9D9;
+
+}
+#frase-permanecer{
+    position: absolute;
+    left: 725px;
+    top: 97px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 14px;
+}
+#frase-um{
+    position: absolute;
+    left: 482px;
+    top: 31px;
+    font-size: 12px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+h1{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    left: 1220px;
+    top: 17px;
+
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.fundo{
+    position:absolute;
+    top: 210px;
+}
+#frase-principal{
+    position: absolute;
+    width: 957px;
+    height: 100px;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    left: 18%;
+    top: 24%;
+    background: linear-gradient(90deg, rgba(201, 48, 255, 0.5) 8.46%, rgba(37, 217, 184, 0.36) 93.95%, rgba(0, 209, 255, 0.125) 93.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    
+
+}
+
+.btn-principal{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    font-size: 25px;
+    width: 281px;
+    height: 75px;
+    left: 555px;
+    top: 614px;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    box-shadow: #B8F0ED 4px 4px 4px 4px;
+    transition: transform 200ms, bow-shadow 200ms;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(49, 231, 220, 0.91) 0%, rgba(28, 23, 252, 0.21) 100%),
+linear-gradient(180deg, #DB00FF 0%, #B8F0ED 100%);
+
+}
+ 
+
+.btn-principal:active {
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #DB00FF 0px 0px 0px 0px;
+}
+
+
+#frase-dois{
+    height: 27px;
+    width: 309px; 
+    left: 544px;
+    top: 748px;
+    border-radius: none;
+    text-align: center;
+
+}

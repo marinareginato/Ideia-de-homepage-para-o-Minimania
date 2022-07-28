@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilohomepageMM.css" type="text/css" rel="stylesheet">
+    <title>Homepage</title>
+</head>
+<body>
+    <header class="topo">
+        <div>
+            <img src="logotipo.png" class="logo" >
+        </div>
+        <div>
+            <p id="frase-um">Entre com sua conta do MiniMania.</p>
+            <form>
+                <input type="text" placeholder="Email" id="email">
+                <input type="password" placeholder="Senha" id="senha">
+                <input type="checkbox" id="permanecer">
+                <label id="frase-permanecer">Mantenha-me conectado</label>
+		<input type="submit"  id="btn-entrar" onClick="logar()">
+            </form>
+            
+            <h1>Englesh/Portugûes</h1>
+        </div>
+    </header>
+    <main>
+        <p id="frase-principal">Um novo mundo, uma nova mania!</p>
+	<div class="div-fundo">
+        	<img src="img3.png" class="fundo">
+	</div>
+        <button class="btn-principal">Jogue Agora!</button>
+    </main>
+    <footer>
+        <h1 id="frase-dois">MiniMania © Todos os direitos reservados.</h1>
+    </footer>
+
+    <script language= "javascript">
+	function logar(){
+
+            var login = document.getElementById('email').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "adm" && senha == "0000"){
+                window.alert('Sucesso');
+            }else{
+                window.alert('Usuario ou senha incorretos');
+            }
+
+        }
+    </script>
+</body>
+
+</html>
